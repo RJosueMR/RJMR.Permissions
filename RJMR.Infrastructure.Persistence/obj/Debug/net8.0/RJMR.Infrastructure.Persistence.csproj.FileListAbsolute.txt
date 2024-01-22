@@ -1,0 +1,17 @@
+F:\PROYECTOS\RJMR.Permissions\RJMR.Infrastructure.Persistence\obj\Debug\net8.0\RJMR.Infrastructure.Persistence.csproj.AssemblyReference.cache
+F:\PROYECTOS\RJMR.Permissions\RJMR.Infrastructure.Persistence\obj\Debug\net8.0\RJMR.Infrastructure.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+F:\PROYECTOS\RJMR.Permissions\RJMR.Infrastructure.Persistence\obj\Debug\net8.0\RJMR.Infrastructure.Persistence.AssemblyInfoInputs.cache
+F:\PROYECTOS\RJMR.Permissions\RJMR.Infrastructure.Persistence\obj\Debug\net8.0\RJMR.Infrastructure.Persistence.AssemblyInfo.cs
+F:\PROYECTOS\RJMR.Permissions\RJMR.Infrastructure.Persistence\obj\Debug\net8.0\RJMR.Infrastructure.Persistence.csproj.CoreCompileInputs.cache
+F:\PROYECTOS\RJMR.Permissions\RJMR.Infrastructure.Persistence\bin\Debug\net8.0\RJMR.Infrastructure.Persistence.deps.json
+F:\PROYECTOS\RJMR.Permissions\RJMR.Infrastructure.Persistence\bin\Debug\net8.0\RJMR.Infrastructure.Persistence.runtimeconfig.json
+F:\PROYECTOS\RJMR.Permissions\RJMR.Infrastructure.Persistence\bin\Debug\net8.0\RJMR.Infrastructure.Persistence.dll
+F:\PROYECTOS\RJMR.Permissions\RJMR.Infrastructure.Persistence\bin\Debug\net8.0\RJMR.Infrastructure.Persistence.pdb
+F:\PROYECTOS\RJMR.Permissions\RJMR.Infrastructure.Persistence\bin\Debug\net8.0\RJMR.Core.Domain.dll
+F:\PROYECTOS\RJMR.Permissions\RJMR.Infrastructure.Persistence\bin\Debug\net8.0\RJMR.Core.Domain.pdb
+F:\PROYECTOS\RJMR.Permissions\RJMR.Infrastructure.Persistence\obj\Debug\net8.0\RJMR.Infrastructure.Persistence.csproj.CopyComplete
+F:\PROYECTOS\RJMR.Permissions\RJMR.Infrastructure.Persistence\obj\Debug\net8.0\RJMR.Infrastructure.Persistence.dll
+F:\PROYECTOS\RJMR.Permissions\RJMR.Infrastructure.Persistence\obj\Debug\net8.0\refint\RJMR.Infrastructure.Persistence.dll
+F:\PROYECTOS\RJMR.Permissions\RJMR.Infrastructure.Persistence\obj\Debug\net8.0\RJMR.Infrastructure.Persistence.pdb
+F:\PROYECTOS\RJMR.Permissions\RJMR.Infrastructure.Persistence\obj\Debug\net8.0\RJMR.Infrastructure.Persistence.genruntimeconfig.cache
+F:\PROYECTOS\RJMR.Permissions\RJMR.Infrastructure.Persistence\obj\Debug\net8.0\ref\RJMR.Infrastructure.Persistence.dll

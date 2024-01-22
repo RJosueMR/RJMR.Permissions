@@ -1,0 +1,14 @@
+F:\PROYECTOS\RJMR.Permissions\RJMR.Core.Domain\bin\Debug\net8.0\RJMR.Core.Domain.deps.json
+F:\PROYECTOS\RJMR.Permissions\RJMR.Core.Domain\bin\Debug\net8.0\RJMR.Core.Domain.runtimeconfig.json
+F:\PROYECTOS\RJMR.Permissions\RJMR.Core.Domain\bin\Debug\net8.0\RJMR.Core.Domain.dll
+F:\PROYECTOS\RJMR.Permissions\RJMR.Core.Domain\bin\Debug\net8.0\RJMR.Core.Domain.pdb
+F:\PROYECTOS\RJMR.Permissions\RJMR.Core.Domain\obj\Debug\net8.0\RJMR.Core.Domain.csproj.AssemblyReference.cache
+F:\PROYECTOS\RJMR.Permissions\RJMR.Core.Domain\obj\Debug\net8.0\RJMR.Core.Domain.GeneratedMSBuildEditorConfig.editorconfig
+F:\PROYECTOS\RJMR.Permissions\RJMR.Core.Domain\obj\Debug\net8.0\RJMR.Core.Domain.AssemblyInfoInputs.cache
+F:\PROYECTOS\RJMR.Permissions\RJMR.Core.Domain\obj\Debug\net8.0\RJMR.Core.Domain.AssemblyInfo.cs
+F:\PROYECTOS\RJMR.Permissions\RJMR.Core.Domain\obj\Debug\net8.0\RJMR.Core.Domain.csproj.CoreCompileInputs.cache
+F:\PROYECTOS\RJMR.Permissions\RJMR.Core.Domain\obj\Debug\net8.0\RJMR.Core.Domain.dll
+F:\PROYECTOS\RJMR.Permissions\RJMR.Core.Domain\obj\Debug\net8.0\refint\RJMR.Core.Domain.dll
+F:\PROYECTOS\RJMR.Permissions\RJMR.Core.Domain\obj\Debug\net8.0\RJMR.Core.Domain.pdb
+F:\PROYECTOS\RJMR.Permissions\RJMR.Core.Domain\obj\Debug\net8.0\RJMR.Core.Domain.genruntimeconfig.cache
+F:\PROYECTOS\RJMR.Permissions\RJMR.Core.Domain\obj\Debug\net8.0\ref\RJMR.Core.Domain.dll
