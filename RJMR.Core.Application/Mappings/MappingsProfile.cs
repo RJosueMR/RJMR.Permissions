@@ -12,7 +12,12 @@ namespace RJMR.Core.Application.Mappings
     {
         public MappingsProfile() 
         {
-            CreateMap<Permission, PermissionDTO>().ReverseMap();
+            CreateMap<Permission, PermissionDTO>().ReverseMap()
+                .ForMember(destino => destino.Id, origen => origen.MapFrom(orgDTO => orgDTO.Id))
+                .ForMember(destino => destino.NombreEmpleado, origen => origen.MapFrom(orgDTO => orgDTO.NombreEmpleado))
+                .ForMember(destino => destino.ApellidoEmpleado, origen => origen.MapFrom(orgDTO => orgDTO.ApellidoEmpleado))
+                .ForMember(destino => destino.TípoPermiso, origen => origen.MapFrom(orgDTO => orgDTO.TípoPermiso))
+                .ForMember(destino => destino.FechaPermiso, origen => origen.MapFrom(orgDTO => DateOnly.FromDateTime(orgDTO.FechaPermiso)));
             CreateMap<PermissionType, PermissionTypeDTO>().ReverseMap();
         }
 

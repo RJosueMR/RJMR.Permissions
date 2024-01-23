@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace RJMR.Core.Domain;
 
@@ -13,5 +14,6 @@ public partial class PermissionDTO
 
     public int TípoPermiso { get; set; }
 
-    public DateOnly FechaPermiso { get; set; }
+    [DataType(DataType.Date)]
+    public DateTime FechaPermiso { get; set; }
 }
