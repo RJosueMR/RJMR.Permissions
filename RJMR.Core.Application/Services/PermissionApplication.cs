@@ -13,12 +13,12 @@ namespace RJMR.Core.Application.Services
 {
     public class PermissionApplication : IPermissionApplication
     {
-        private readonly IPermissionRepository _permissionRepository;
+        private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
 
-        public PermissionApplication(IPermissionRepository permissionRepository, IMapper mapper)
+        public PermissionApplication(IUnitOfWork unitOfWork, IMapper mapper)
         {
-            _permissionRepository = permissionRepository;
+            _unitOfWork = unitOfWork;
             _mapper = mapper;
         }
 
@@ -28,7 +28,7 @@ namespace RJMR.Core.Application.Services
             try
             {
                 var permission = _mapper.Map<Permission>(permissionDTO);
-                response.Data = await _permissionRepository.InsertAsync(permission);
+                response.Data = await _unitOfWork.Permissions.InsertAsync(permission);
                 if (response.Data)
                 {
                     response.IsSuccess = true;
@@ -49,7 +49,7 @@ namespace RJMR.Core.Application.Services
             try
             {
                 var permission = _mapper.Map<Permission>(permissionDTO);
-                response.Data = await _permissionRepository.UpdateAsync(permission);
+                response.Data = await _unitOfWork.Permissions.UpdateAsync(permission);
                 if (response.Data)
                 {
                     response.IsSuccess = true;
@@ -69,7 +69,7 @@ namespace RJMR.Core.Application.Services
             var response = new Response<bool>();
             try
             {
-                response.Data = await _permissionRepository.DeleteAsync(id);
+                response.Data = await _unitOfWork.Permissions.DeleteAsync(id);
                 if (response.Data)
                 {
                     response.IsSuccess = true;
@@ -89,7 +89,7 @@ namespace RJMR.Core.Application.Services
             var response = new Response<PermissionDTO>();
             try
             {
-                var permission = await _permissionRepository.GetByIdAsync(id);
+                var permission = await _unitOfWork.Permissions.GetByIdAsync(id);
                 response.Data = _mapper.Map<PermissionDTO>(permission);
                 if (response.Data != null)
                 {
@@ -110,7 +110,7 @@ namespace RJMR.Core.Application.Services
             var response = new Response<IEnumerable<PermissionDTO>>();
             try
             {
-                var permissions = await _permissionRepository.GetAllAsync();
+                var permissions = await _unitOfWork.Permissions.GetAllAsync();
                 response.Data = _mapper.Map<IEnumerable<PermissionDTO>>(permissions);
                 if (response.Data != null)
                 {
@@ -131,7 +131,7 @@ namespace RJMR.Core.Application.Services
             var response = new ResponsePagination<IEnumerable<PermissionDTO>>();
             try
             {
-                var permissions = await _permissionRepository.GetAllWithPaginationAsync(pageNumber, pageSize);
+                var permissions = await _unitOfWork.Permissions.GetAllWithPaginationAsync(pageNumber, pageSize);
                 response.Data = _mapper.Map<IEnumerable<PermissionDTO>>(permissions);
                 if (response.Data != null)
                 {

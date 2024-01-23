@@ -149,3 +149,4 @@ F:\PROYECTOS\RJMR.Permissions\RJMR.Permissions.WebAPI\bin\Debug\net8.0\RJMR.Core
 F:\PROYECTOS\RJMR.Permissions\RJMR.Permissions.WebAPI\bin\Debug\net8.0\RJMR.Infrastructure.Persistence.pdb
 F:\PROYECTOS\RJMR.Permissions\RJMR.Permissions.WebAPI\bin\Debug\net8.0\RJMR.Infrastructure.Repository.pdb
 F:\PROYECTOS\RJMR.Permissions\RJMR.Permissions.WebAPI\bin\Debug\net8.0\RJMR.Core.Domain.pdb
+F:\PROYECTOS\RJMR.Permissions\RJMR.Permissions.WebAPI\obj\Debug\net8.0\RJMR.Permissions.WebAPI.sourcelink.json

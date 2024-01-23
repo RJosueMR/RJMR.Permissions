@@ -17,3 +17,4 @@ F:\PROYECTOS\RJMR.Permissions\RJMR.Core.Application\obj\Debug\net8.0\RJMR.Core.A
 F:\PROYECTOS\RJMR.Permissions\RJMR.Core.Application\obj\Debug\net8.0\refint\RJMR.Core.Application.dll
 F:\PROYECTOS\RJMR.Permissions\RJMR.Core.Application\obj\Debug\net8.0\RJMR.Core.Application.pdb
 F:\PROYECTOS\RJMR.Permissions\RJMR.Core.Application\obj\Debug\net8.0\ref\RJMR.Core.Application.dll
+F:\PROYECTOS\RJMR.Permissions\RJMR.Core.Application\obj\Debug\net8.0\RJMR.Core.Application.sourcelink.json

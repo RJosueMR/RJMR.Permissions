@@ -14,12 +14,12 @@ namespace RJMR.Core.Application.Services
 {
     public class PermissionTypeApplication : IPermissionTypeApplication
     {
-        private readonly IPermissionTypeRepository _permissionTypeRepository;
+        private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
 
-        public PermissionTypeApplication(IPermissionTypeRepository permissionTypeRepository, IMapper mapper)
+        public PermissionTypeApplication(IUnitOfWork unitOfWork, IMapper mapper)
         {
-            _permissionTypeRepository = permissionTypeRepository;
+            _unitOfWork = unitOfWork;
             _mapper = mapper;
         }
 
@@ -48,7 +48,7 @@ namespace RJMR.Core.Application.Services
             var response = new Response<IEnumerable<PermissionTypeDTO>>();
             try
             {
-                var permissionTypes = await _permissionTypeRepository.GetAllAsync();
+                var permissionTypes = await _unitOfWork.PermissionTypes.GetAllAsync();
                 response.Data = _mapper.Map<IEnumerable<PermissionTypeDTO>>(permissionTypes);
                 if (response.Data != null)
                 {
